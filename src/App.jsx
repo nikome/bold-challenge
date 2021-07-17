@@ -1,6 +1,10 @@
 import './App.css';
+import React from 'react';
+import styled from 'styled-components';
+import {ReactComponent as Example} from './logoBold.svg';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
