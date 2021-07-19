@@ -5,3 +5,5 @@ export const colors = {
     whiteBackgound: '#e5e7ef',
     red: '#ef434e',
 };
+
+export const desktopBreakpoint = '62em';

@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useTable } from "react-table";
 import makeData from "./makeData";
 import { RiMastercardFill } from 'react-icons/ri';
+import { colors, desktopBreakpoint } from './globals';
 
 const Styles = styled.div`
   height: 300px;
@@ -37,14 +38,17 @@ const Styles = styled.div`
     }
     .transaccion,
     .monto {
-      color: #111e6c;
+      color: ${colors.blue};
     }
     .date,
     .metodo,
     .idBold {
-      color: #969696;
+      color: ${colors.grey};
       text-transform: uppercase;
     }
+  }
+  @media (max-width: ${desktopBreakpoint}) {
+    width: 100%;
   }
 `;
 
